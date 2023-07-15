@@ -37,7 +37,7 @@ Yes - High Attendance
 Yes - Preparation
 Yes - Microphone
 ```
-[Take me back to the application!](discord:https://discord.com/channels/1023978163581231134/1120814280867074158/1127682534554214530){: .btn .btn-purple }
+[Take me back to the application!](discord:https://discord.com/channels/860977926229196840/1119767347939528815/1129902684762288169){: .btn .btn-purple }
 
 ## **Question 2:** 👋 Please introduce yourself
 
@@ -84,7 +84,7 @@ I am well-versed in raid mechanics, quick to adapt to new strategies, and always
 I am committed to maintaining high attendance and can dedicate <Days/Hours> each week for raiding, ensuring a minimum of 90% attendance.
 I am comfortable using voice communication in raids and actively participate in guild discussions and strategies.
 ```
-[Take me back to the application!](discord:https://discord.com/channels/1023978163581231134/1120814280867074158/1127682534554214530){: .btn .btn-purple }
+[Take me back to the application!](discord:https://discord.com/channels/860977926229196840/1119767347939528815/1129902684762288169){: .btn .btn-purple }
 
 ## **Question 3:** 🔗 Link relevant URL(s)
 
@@ -151,7 +151,7 @@ https://i.redd.it/a5yyjwysr9e11.jpg
 VOD(s) (in Raid Environment):
 https://www.twitch.tv/videos/1864919909
 ```
-[Take me back to the application!](discord:https://discord.com/channels/1023978163581231134/1120814280867074158/1127682534554214530){: .btn .btn-purple }
+[Take me back to the application!](discord:https://discord.com/channels/860977926229196840/1119767347939528815/1129902684762288169){: .btn .btn-purple }
 
 ## **Question 4:** ⭐ ICC: Coming next week. How do you prepare?
 
@@ -217,4 +217,4 @@ Make sure my means of communication is working.
 Failure:
 Expect mistakes to happen, but learn from them and adapt my playstyle accordingly.
 ```
-[Take me back to the application!](discord:https://discord.com/channels/1023978163581231134/1120814280867074158/1127682534554214530){: .btn .btn-purple }
+[Take me back to the application!](discord:https://discord.com/channels/860977926229196840/1119767347939528815/1129902684762288169){: .btn .btn-purple }
