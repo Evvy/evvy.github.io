@@ -7,3 +7,8 @@ url: https://evvy.github.io
 
 aux_links:
   Join our Discord: https://github.com/just-the-docs/just-the-docs-template
+
+callouts:
+  warning:
+    title: Warning
+    color: red
