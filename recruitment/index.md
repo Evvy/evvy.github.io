@@ -15,7 +15,7 @@ In addition I've provided how we might perceive the information you present us, 
 
 {: .warning}
 The answer in this paragraph only allows for a total of 1024 characters in length.
-### What you're telling us:
+### These are our mandatory requirements:
 - [x] Signs up for **ALL** mandatory raids.
 - [x] Signs off **AND** lets someone know if there is any deviation in attendance.
 - [x] I will use consumables for **EVERY** raid:
@@ -28,7 +28,7 @@ The answer in this paragraph only allows for a total of 1024 characters in lengt
 - [x] I do my part(s) in preparing for current and future content.
 - [x] I have a microphone and willing to use it if the situation requires it.
 
-### What you insert into the Discord form:
+<!-- ### What you insert into the Discord form:
 ```
 Yes - Signing for raids
 Yes - Signing off and notifying if late/away/planned absence
@@ -36,14 +36,14 @@ Yes - Consumable-usage
 Yes - High Attendance
 Yes - Preparation
 Yes - Microphone
-```
+``` -->
 [Take me back to the application!](discord:https://discord.com/channels/860977926229196840/1119767347939528815/1129902684762288169){: .btn .btn-purple }
 
 ## **Question 2:** 👋 Please introduce yourself
 
 {: .warning}
 The answer in this paragraph only allows for a total of 1024 characters in length.
-### What you're telling us:
+### Example:
 <dl>
   <dt>Nickname</dt>
   <dd><img src="https://wow.zamimg.com/images/icons/alliance.png"> Evvy</dd>
@@ -65,7 +65,7 @@ In terms of raiding experience, I have been an active raider since <[Expansion N
 
 I am committed to maintaining high attendance and can dedicate <[Days/Hours](#)> each week for raiding, ensuring a minimum of 90% attendance. I am comfortable using voice communication in raids and actively participate in guild discussions and strategies.
 
-### What you insert into the Discord form:
+<!-- ### What you insert into the Discord form:
 ```
 Nickname: Evvy
 Race: Human
@@ -83,14 +83,14 @@ I am well-versed in raid mechanics, quick to adapt to new strategies, and always
 
 I am committed to maintaining high attendance and can dedicate <Days/Hours> each week for raiding, ensuring a minimum of 90% attendance.
 I am comfortable using voice communication in raids and actively participate in guild discussions and strategies.
-```
+``` -->
 [Take me back to the application!](discord:https://discord.com/channels/860977926229196840/1119767347939528815/1129902684762288169){: .btn .btn-purple }
 
 ## **Question 3:** 🔗 Link relevant URL(s)
 
 {: .warning}
 The answer in this paragraph only allows for a total of 1024 characters in length.
-### What you're telling us:
+### Example:
 #### Combat Analysis (Logs):
 
 |Difficulty| ToGC       | Ulduar          | Naxxramas/EoE/OS |
@@ -123,7 +123,7 @@ The answer in this paragraph only allows for a total of 1024 characters in lengt
     };
     new Twitch.Player("twitch-embed", options);
 </script>
-### What you insert into the Discord form:
+<!-- ### What you insert into the Discord form:
 ```
 Combat Analysis (Logs):
 ToGC 25 HC:
@@ -150,7 +150,7 @@ https://i.redd.it/a5yyjwysr9e11.jpg
 
 VOD(s) (in Raid Environment):
 https://www.twitch.tv/videos/1864919909
-```
+``` -->
 [Take me back to the application!](discord:https://discord.com/channels/860977926229196840/1119767347939528815/1129902684762288169){: .btn .btn-purple }
 
 ## **Question 4:** ⭐ ICC: Coming next week. How do you prepare?
