@@ -1,0 +1,14 @@
+title: Prominent
+description: THE WoW Classic Guild
+theme: just-the-docs
+
+#url: https://just-the-docs.github.io
+url: https://evvy.github.io
+
+aux_links:
+  Join our Discord: https://github.com/just-the-docs/just-the-docs-template
+
+callouts:
+  warning:
+    title: Warning
+    color: red
