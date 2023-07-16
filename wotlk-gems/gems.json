@@ -1,0 +1,912 @@
+{
+  "gems": [
+    {
+      "name": "Nightmare Tear",
+      "color": "Any",
+      "stats": "+10 All Stats",
+      "status": true,
+      "members": [{
+          "name": "Kamìkaze",
+          "class": "Death-Knight"
+      },
+      {
+          "name": "Morphang",
+          "class": "Death-Knight"
+      }],
+      "icon": "inv_misc_gem_pearl_12"
+    },
+    {
+      "name": "Runed Cardinal Ruby",
+      "color": "Red",
+      "stats": "+23 Spell Power",
+      "status": true,
+      "members": [{
+          "name": "Nayti",
+          "class": "Druid"
+      },
+      {
+          "name": "Esminel",
+          "class": "Priest"
+      },
+      {
+          "name": "Kamìkaze",
+          "class": "Death-Knight"
+      },
+      {
+          "name": "Rahgeal",
+          "class": "Hunter"
+      },
+      {
+          "name": "Morphang",
+          "class": "Death-Knight"
+      }],
+      "icon": "inv_jewelcrafting_gem_37"
+    },
+    {
+      "name": "Bold Cardinal Ruby",
+      "color": "Red",
+      "stats": "+20 Strength",
+      "status": true,
+      "members": [{
+          "name": "Nayti",
+          "class": "Druid"
+      },
+      {
+          "name": "Kamìkaze",
+          "class": "Death-Knight"
+      },
+      {
+          "name": "Esminel",
+          "class": "Priest"
+      },
+      {
+          "name": "Morphang",
+          "class": "Death-Knight"
+      }],
+      "icon": "inv_jewelcrafting_gem_37"
+    },
+    {
+      "name": "Fractured Cardinal Ruby",
+      "color": "Red",
+      "stats": "+20 Armor Penetration Rating",
+      "status": true,
+      "members": [{
+          "name": "Nayti",
+          "class": "Druid"
+      },
+      {
+          "name": "Kamìkaze",
+          "class": "Death-Knight"
+      }],
+      "icon": "inv_jewelcrafting_gem_37"
+    },
+    {
+      "name": "Delicate Cardinal Ruby",
+      "color": "Red",
+      "stats": "+20 Agility",
+      "status": true,
+      "members": [{
+          "name": "Rahgeal",
+          "class": "Hunter"
+      },
+      {
+          "name": "Morphang",
+          "class": "Death-Knight"
+      }],
+      "icon": "inv_jewelcrafting_gem_37"
+    },
+    {
+      "name": "Bright Cardinal Ruby",
+      "color": "Red",
+      "stats": "+40 Attack Power",
+      "status": true,
+      "members": [{
+          "name": "Rahgeal",
+          "class": "Hunter"
+      },
+      {
+          "name": "Morphang",
+          "class": "Death-Knight"
+      }],
+      "icon": "inv_jewelcrafting_gem_37"
+    },
+    {
+      "name": "Precise Cardinal Ruby",
+      "color": "Red",
+      "stats": "+20 Expertise Rating",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_37"
+    },
+    {
+      "name": "Subtle Cardinal Ruby",
+      "color": "Red",
+      "stats": "+20 Dodge Rating",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_37"
+    },
+    {
+      "name": "Flashing Cardinal Ruby",
+      "color": "Red",
+      "stats": "+20 Parry Rating",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_37"
+    },
+    {
+      "name": "Quick King's Amber",
+      "color": "Yellow",
+      "stats": "+20 Haste Rating",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_38"
+    },
+    {
+      "name": "Mystic King's Amber",
+      "color": "Yellow",
+      "stats": "+20 Resilience Rating",
+      "status": true,
+      "members": [{
+          "name": "Rahgeal",
+          "class": "Hunter"
+      },
+      {
+          "name": "Faidy",
+          "class": "Paladin"
+      }],
+      "icon": "inv_jewelcrafting_gem_38"
+    },
+    {
+      "name": "Brilliant King's Amber",
+      "color": "Yellow",
+      "stats": "+20 Intellect",
+      "status": true,
+      "members": [{
+          "name": "Evvy",
+          "class": "Paladin"
+      }],
+      "icon": "inv_jewelcrafting_gem_38"
+    },
+    {
+      "name": "Rigid King's Amber",
+      "color": "Yellow",
+      "stats": "+20 Hit Rating",
+      "status": true,
+      "members": [{
+          "name": "Morphang",
+          "class": "Death-Knight"
+      }],
+      "icon": "inv_jewelcrafting_gem_38"
+    },
+    {
+      "name": "Thick King's Amber",
+      "color": "Yellow",
+      "stats": "+20 Defense Rating",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_38"
+    },
+    {
+      "name": "Smooth King's Amber",
+      "color": "Yellow",
+      "stats": "+20 Critical Strike Rating",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_38"
+    },
+    {
+      "name": "Solid Majestic Zircon",
+      "color": "Blue",
+      "stats": "+30 Stamina",
+      "status": true,
+      "members": [{
+          "name": "Kamìkaze",
+          "class": "Death-Knight"
+      },
+      {
+          "name": "Esminel",
+          "class": "Priest"
+      },
+      {
+          "name": "Morphang",
+          "class": "Death-Knight"
+      }],
+      "icon": "inv_jewelcrafting_gem_42"
+    },
+    {
+      "name": "Stormy Majestic Zircon",
+      "color": "Blue",
+      "stats": "+25 Spell Penetration",
+      "status": true,
+      "members": [{
+          "name": "Rahgeal",
+          "class": "Hunter"
+      }],
+      "icon": "inv_jewelcrafting_gem_42"
+    },
+    {
+      "name": "Lustrous Majestic Zircon",
+      "color": "Blue",
+      "stats": "+10 Mana every 5 seconds",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_42"
+    },
+    {
+      "name": "Sparkling Majestic Zircon",
+      "color": "Blue",
+      "stats": "+20 Spirit",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_42"
+    },
+    {
+      "name": "Reckless Ametrine",
+      "color": "Orange",
+      "stats": "+12 Spell Power and +10 Haste Rating",
+      "status": true,
+      "members": [{
+          "name": "Evvy",
+          "class": "Paladin"
+      },
+      {
+          "name": "Rahgeal",
+          "class": "Hunter"
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Veiled Ametrine",
+      "color": "Orange",
+      "stats": "+12 Spell Power and +10 Hit Rating",
+      "status": true,
+      "members": [{
+          "name": "Rahgeal",
+          "class": "Hunter"
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Inscribed Ametrine",
+      "color": "Orange",
+      "stats": "+10 Strength and +10 Critical Strike Rating",
+      "status": true,
+      "members": [{
+          "name": "Esminel",
+          "class": "Priest"
+      },
+      {
+          "name": "Kamìkaze",
+          "class": "Death-Knight"
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Pristine Ametrine",
+      "color": "Orange",
+      "stats": "+20 Attack Power and +10 Hit Rating",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Potent Ametrine",
+      "color": "Orange",
+      "stats": "+12 Spell Power and +10 Critical Strike Rating",
+      "status": true,
+      "members": [{
+          "name": "Esminel",
+          "class": "Priest"
+      },
+      {
+          "name": "Morphang",
+          "class": "Death-Knight"
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Deadly Ametrine",
+      "color": "Orange",
+      "stats": "+10 Agility and +10 Critical Strike Rating",
+      "status": true,
+      "members": [{
+          "name": "Evvy",
+          "class": "Paladin"
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Luminous Ametrine",
+      "color": "Orange",
+      "stats": "+12 Spell Power and +10 Intellect",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Fierce Ametrine",
+      "color": "Orange",
+      "stats": "+10 Strength and +10 Haste Rating",
+      "status": true,
+      "members": [{
+          "name": "Kamìkaze",
+          "class": "Death-Knight"
+      },
+      {
+          "name": "Morphang",
+          "class": "Death-Knight"
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Stark Ametrine",
+      "color": "Orange",
+      "stats": "+20 Attack Power and +10 Haste Rating",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Durable Ametrine",
+      "color": "Orange",
+      "stats": "+12 Spell Power and +10 Resilience Rating",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Glinting Ametrine",
+      "color": "Orange",
+      "stats": "+10 Agility and +10 Hit Rating",
+      "status": true,
+      "members": [{
+          "name": "Rahgeal",
+          "class": "Hunter"
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Etched Ametrine",
+      "color": "Orange",
+      "stats": "+10 Strength and +10 Hit Rating",
+      "status": true,
+      "members": [{
+          "name": "Rahgeal",
+          "class": "Hunter"
+      },
+      {
+          "name": "Esminel",
+          "class": "Priest"
+      },
+      {
+          "name": "Morphang",
+          "class": "Death-Knight"
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Accurate Ametrine",
+      "color": "Orange",
+      "stats": "+10 Expertise Rating and +10 Hit Rating",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Resplendent Ametrine",
+      "color": "Orange",
+      "stats": "+10 Strength and +10 Resilience Rating",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Empowered Ametrine",
+      "color": "Orange",
+      "stats": "+20 Attack Power and +10 Resilience Rating",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Lucent Ametrine",
+      "color": "Orange",
+      "stats": "+10 Agility and +10 Resilience Rating",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Wicked Ametrine",
+      "color": "Orange",
+      "stats": "+20 Attack Power and +10 Critical Strike Rating",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Resolute Ametrine",
+      "color": "Orange",
+      "stats": "+10 Expertise Rating and +10 Defense Rating",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Champion's Ametrine",
+      "color": "Orange",
+      "stats": "+10 Strength and +10 Defense Rating",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Stalwart Ametrine",
+      "color": "Orange",
+      "stats": "+10 Dodge Rating and +10 Defense Rating",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Deft Ametrine",
+      "color": "Orange",
+      "stats": "+10 Agility and +10 Haste Rating",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Glimmering Ametrine",
+      "color": "Orange",
+      "stats": "+10 Parry Rating and +10 Defense Ratin",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_39"
+    },
+    {
+      "name": "Purified Dreadstone",
+      "color": "Purple",
+      "stats": "+12 Spell Power and +10 Spirit",
+      "status": true,
+      "members": [{
+          "name": "Evvy",
+          "class": "Paladin"
+      },
+      {
+          "name": "Rahgeal",
+          "class": "Hunter"
+      },
+      {
+          "name": "Morphang",
+          "class": "Death-Knight"
+      }],
+      "icon": "inv_jewelcrafting_gem_40"
+    },
+    {
+      "name": "Royal Dreadstone",
+      "color": "Purple",
+      "stats": "+12 Spell Power and +5 Mana every 5 seconds",
+      "status": true,
+      "members": [{
+          "name": "Rahgeal",
+          "class": "Hunter"
+      }],
+      "icon": "inv_jewelcrafting_gem_40"
+    },
+    {
+      "name": "Shifting Dreadstone",
+      "color": "Purple",
+      "stats": "+10 Agility and +15 Stamina",
+      "status": true,
+      "members": [{
+          "name": "Kamìkaze",
+          "class": "Death-Knight"
+      }],
+      "icon": "inv_jewelcrafting_gem_40"
+    },
+    {
+      "name": "Sovereign Dreadstone",
+      "color": "Purple",
+      "stats": "+10 Strength and +15 Stamina",
+      "status": true,
+      "members": [{
+          "name": "Kamìkaze",
+          "class": "Death-Knight"
+      },
+      {
+          "name": "Esminel",
+          "class": "Priest"
+      },
+      {
+          "name": "Evvy",
+          "class": "Paladin"
+      },
+      {
+          "name": "Morphang",
+          "class": "Death-Knight"
+      }],
+      "icon": "inv_jewelcrafting_gem_40"
+    },
+    {
+      "name": "Guardian's Dreadstone",
+      "color": "Purple",
+      "stats": "+10 Expertise Rating and +15 Stamina",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_40"
+    },
+    {
+      "name": "Balanced Dreadstone",
+      "color": "Purple",
+      "stats": "+20 Attack Power and +15 Stamina",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_40"
+    },
+    {
+      "name": "Mysterious Dreadstone",
+      "color": "Purple",
+      "stats": "+12 Spell Power and +13 Spell Penetration",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_40"
+    },
+    {
+      "name": "Glowing Dreadstone",
+      "color": "Purple",
+      "stats": "+12 Spell Power and +15 Stamina",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_40"
+    },
+    {
+      "name": "Puissant Dreadstone",
+      "color": "Purple",
+      "stats": "+10 Armor Penetration Rating and +15 Stamina",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_40"
+    },
+    {
+      "name": "Regal Dreadstone",
+      "color": "Purple",
+      "stats": "+10 Dodge Rating and +15 Stamina",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_40"
+    },
+    {
+      "name": "Defender's Dreadstone",
+      "color": "Purple",
+      "stats": "+10 Parry Rating and +15 Stamina",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_40"
+    },
+    {
+      "name": "Tenuous Dreadstone",
+      "color": "Purple",
+      "stats": "+10 Agility and +5 Mana every 5 seconds",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_40"
+    },
+    {
+      "name": "Infused Dreadstone",
+      "color": "Purple",
+      "stats": "+20 Attack Power and +5 Mana every 5 seconds",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_40"
+    },
+    {
+      "name": "Vivid Eye of Zul",
+      "color": "Green",
+      "stats": "+10 Hit Rating and +15 Stamina",
+      "status": true,
+      "members": [{
+          "name": "Evvy",
+          "class": "Paladin"
+      },
+      {
+          "name": "Morphang",
+          "class": "Death-Knight"
+      }],
+      "icon": "inv_jewelcrafting_gem_41"
+    },
+    {
+      "name": "Enduring Eye of Zul",
+      "color": "Green",
+      "stats": "+10 Defense Rating and +15 Stamina",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_41"
+    },
+    {
+      "name": "Opaque Eye of Zul",
+      "color": "Green",
+      "stats": "+10 Resilience Rating and +5 Mana every 5 seconds",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_41"
+    },
+    {
+      "name": "Dazzling Eye of Zul",
+      "color": "Green",
+      "stats": "+10 Intellect and +5 Mana every 5 seconds",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_41"
+    },
+    {
+      "name": "Shattered Eye of Zul",
+      "color": "Green",
+      "stats": "+10 Haste Rating and +13 Spell Penetration",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_41"
+    },
+    {
+      "name": "Intricate Eye of Zul",
+      "color": "Green",
+      "stats": "+10 Haste Rating and +10 Spirit",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_41"
+    },
+    {
+      "name": "Steady Eye of Zul",
+      "color": "Green",
+      "stats": "+10 Resilience Rating and +15 Stamina",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_41"
+    },
+    {
+      "name": "Energized Eye of Zul",
+      "color": "Green",
+      "stats": "+10 Haste Rating and +5 Mana every 5 seconds",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_41"
+    },
+    {
+      "name": "Forceful Eye of Zul",
+      "color": "Green",
+      "stats": "+10 Haste Rating and +15 Stamina",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_41"
+    },
+    {
+      "name": "Tense Eye of Zul",
+      "color": "Green",
+      "stats": "+10 Hit Rating and +13 Spell Penetration",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_41"
+    },
+    {
+      "name": "Shining Eye of Zul",
+      "color": "Green",
+      "stats": "+10 Hit Rating and +10 Spirit",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_41"
+    },
+    {
+      "name": "Misty Eye of Zul",
+      "color": "Green",
+      "stats": "+10 Critical Strike Rating and +10 Spirit",
+      "status": false,
+      "members": [{
+
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_41"
+    },
+    {
+      "name": "Turbid Eye of Zul",
+      "color": "Green",
+      "stats": "+10 Resilience Rating and +10 Spirit",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_41"
+    },
+    {
+      "name": "Timeless Eye of Zul",
+      "color": "Green",
+      "stats": "+10 Intellect and +15 Stamina",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_41"
+    },
+    {
+      "name": "Jagged Eye of Zul",
+      "color": "Green",
+      "stats": "+10 Critical Strike Rating and +15 Stamina",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_41"
+    },
+    {
+      "name": "Seer's Eye of Zul",
+      "color": "Green",
+      "stats": "+10 Intellect and +10 Spirit",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_41"
+    },
+    {
+      "name": "Radiant Eye of Zul",
+      "color": "Green",
+      "stats": "+10 Critical Strike Rating and +13 Spell Penetration",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_41"
+    },
+    {
+      "name": "Sundered Eye of Zul",
+      "color": "Green",
+      "stats": "+10 Critical Strike Rating and +5 Mana every 5 seconds",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_41"
+    },
+    {
+      "name": "Lambent Eye of Zul",
+      "color": "Green",
+      "stats": "+10 Hit Rating and +5 Mana every 5 seconds",
+      "status": false,
+      "members": [{
+          "name": "",
+          "class": ""
+      }],
+      "icon": "inv_jewelcrafting_gem_41"
+    }
+  ]
+}
