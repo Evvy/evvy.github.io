@@ -157,7 +157,8 @@ https://www.twitch.tv/videos/1864919909
 
 {: .warning}
 The answer in this paragraph only allows for a total of 1024 characters in length.
-### What you're telling us:
+[](https://i.kym-cdn.com/entries/icons/facebook/000/022/138/highresrollsafe.jpg)
+<!-- ### What you're telling us:
 <details>
   <summary>Gear(ing)</summary>
   Assess my current gear: Make sure it is properly gemmed, enchanted, and optimized.
@@ -216,5 +217,5 @@ Make sure my means of communication is working.
 
 Failure:
 Expect mistakes to happen, but learn from them and adapt my playstyle accordingly.
-```
+``` -->
 [Take me back to the application!](discord:https://discord.com/channels/860977926229196840/1119767347939528815/1129902684762288169){: .btn .btn-purple }
