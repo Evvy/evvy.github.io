@@ -9,9 +9,9 @@ New Feature 🔥
 # Welcome, new recruit!
 Underneath you will find examples of how to answer the individual questions in our application form.<br>
 Keep in mind that these examples are mere suggestive options, nothing conclusive.<br>
-In addition I've provided how we might perceive the information you present us, and how it would look on your side of things.
+<!-- In addition I've provided how we might perceive the information you present us, and how it would look on your side of things. -->
 
-## **Question 1:** ❗ Do you accept our mandatory requirements?
+<!-- ## **Question 1:** ❗ Do you accept our mandatory requirements?
 
 {: .warning}
 The answer in this paragraph only allows for a total of 1024 characters in length.
@@ -26,7 +26,7 @@ The answer in this paragraph only allows for a total of 1024 characters in lengt
 - - [x] Others.
 - [x] I will maintain a high attendance (+90%)
 - [x] I do my part(s) in preparing for current and future content.
-- [x] I have a microphone and willing to use it if the situation requires it.
+- [x] I have a microphone and willing to use it if the situation requires it. -->
 
 <!-- ### What you insert into the Discord form:
 ```
@@ -39,7 +39,7 @@ Yes - Microphone
 ``` -->
 [Take me back to the application!](discord:https://discord.com/channels/860977926229196840/1119767347939528815/1129902684762288169){: .btn .btn-purple }
 
-## **Question 2:** 👋 Please introduce yourself
+## **Question 1:** 👋 Please introduce yourself
 
 {: .warning}
 The answer in this paragraph only allows for a total of 1024 characters in length.
@@ -86,11 +86,12 @@ I am comfortable using voice communication in raids and actively participate in 
 ``` -->
 [Take me back to the application!](discord:https://discord.com/channels/860977926229196840/1119767347939528815/1129902684762288169){: .btn .btn-purple }
 
-## **Question 3:** 🔗 Link relevant URL(s)
+<!-- ## **Question 2:** 🔗 Link relevant URL(s) -->
+## **Question 2:** 🔗 Link logs, gear and screenshot of UI
 
 {: .warning}
 The answer in this paragraph only allows for a total of 1024 characters in length.
-### Example:
+<!-- ### Example:
 #### Combat Analysis (Logs):
 
 |Difficulty| ToGC       | Ulduar          | Naxxramas/EoE/OS |
@@ -122,8 +123,8 @@ The answer in this paragraph only allows for a total of 1024 characters in lengt
         video: "1864919909"
     };
     new Twitch.Player("twitch-embed", options);
-</script>
-<!-- ### What you insert into the Discord form:
+</script> -->
+### What you insert into the Discord form:
 ```
 Combat Analysis (Logs):
 ToGC 25 HC:
@@ -150,7 +151,16 @@ https://i.redd.it/a5yyjwysr9e11.jpg
 
 VOD(s) (in Raid Environment):
 https://www.twitch.tv/videos/1864919909
-``` -->
+```
+[Take me back to the application!](discord:https://discord.com/channels/860977926229196840/1119767347939528815/1129902684762288169){: .btn .btn-purple }
+
+## **Question 3:**🎯 What measures do you take to perform well?
+
+{: .warning}
+The answer in this paragraph only allows for a total of 1024 characters in length.
+
+![](https://i.kym-cdn.com/entries/icons/facebook/000/022/138/highresrollsafe.jpg)
+
 [Take me back to the application!](discord:https://discord.com/channels/860977926229196840/1119767347939528815/1129902684762288169){: .btn .btn-purple }
 
 ## **Question 4:** ⭐ ICC: Coming next week. How do you prepare?
