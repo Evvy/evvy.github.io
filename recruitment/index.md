@@ -171,7 +171,7 @@ Give us a __brief explanation__ of what you consider good performance, and what 
 {: .warning}
 The answer in this paragraph only allows for a total of 1024 characters in length.
 ### Take us through your thought process
-We do not want to create any confirmation bias or otherwise affect your judgement in any way.
+We do not want to create any confirmation bias or otherwise affect your judgement in any way.<br>
 Just try to explain this to the best of your ability.
 
 ![](https://i.kym-cdn.com/entries/icons/facebook/000/022/138/highresrollsafe.jpg)
