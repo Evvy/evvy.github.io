@@ -159,7 +159,9 @@ https://www.twitch.tv/videos/1864919909
 {: .warning}
 The answer in this paragraph only allows for a total of 1024 characters in length.
 
-![](https://i.kym-cdn.com/entries/icons/facebook/000/022/138/highresrollsafe.jpg)
+# Definition and execution
+Give us a brief explanation of what you consider good performance, and what you do to ensure you achieve it.
+![](https://i.gyazo.com/fb738ed84dbc5b06bef120d31f40ef6f.png)
 
 [Take me back to the application!](discord:https://discord.com/channels/860977926229196840/1119767347939528815/1129902684762288169){: .btn .btn-purple }
 
@@ -167,7 +169,9 @@ The answer in this paragraph only allows for a total of 1024 characters in lengt
 
 {: .warning}
 The answer in this paragraph only allows for a total of 1024 characters in length.
-
+# Take us through your thought process
+We do not want to create any confirmation bias or otherwise affect your judgement in any way.
+Just try to explain this to the best of your ability.
 ![](https://i.kym-cdn.com/entries/icons/facebook/000/022/138/highresrollsafe.jpg)
 
 <!-- ### What you're telling us:
