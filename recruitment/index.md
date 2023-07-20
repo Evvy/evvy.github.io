@@ -109,13 +109,13 @@ The answer in this paragraph only allows for a total of 1024 characters in lengt
 ![](https://i.redd.it/a5yyjwysr9e11.jpg)
 #### VOD(s) (in Raid Environment):
 <!-- Add a placeholder for the Twitch embed -->
-<div id="twitch-embed"></div>
+<!--<div id="twitch-embed"></div>-->
 
 <!-- Load the Twitch embed script -->
-<script src="https://player.twitch.tv/js/embed/v1.js"></script>
+<!--<script src="https://player.twitch.tv/js/embed/v1.js"></script>-->
 
 <!-- Create a Twitch.Player object. This will render within the placeholder div -->
-<script type="text/javascript">
+<!--<script type="text/javascript">
     var options = {
         width: "100%",
         height: "460",
@@ -123,7 +123,8 @@ The answer in this paragraph only allows for a total of 1024 characters in lengt
         video: "1864919909"
     };
     new Twitch.Player("twitch-embed", options);
-</script> -->
+</script>
+-->
 ### What you insert into the Discord form:
 ```
 Combat Analysis (Logs):
