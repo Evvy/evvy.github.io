@@ -93,28 +93,23 @@ I am comfortable using voice communication in raids and actively participate in 
 The answer in this paragraph only allows for a total of 1024 characters in length.
 ### Example:
 #### Combat Analysis (Logs):
-
 |Difficulty| ToGC       | Ulduar          | Naxxramas/EoE/OS |
 ||:-------------|:------------------|:------|
 |25 HC/HM|[Warcraftlogs](https://classic.warcraftlogs.com/character/eu/firemaw/evvy#size=25&zone=1018)|[Warcraftlogs](https://classic.warcraftlogs.com/character/eu/firemaw/evvy#size=25&zone=1017)||
 |10 HC/HM|[Warcraftlogs](https://classic.warcraftlogs.com/character/eu/firemaw/evvy#size=10&zone=1018)|[Warcraftlogs](https://classic.warcraftlogs.com/character/eu/firemaw/evvy#size=10&zone=1017)||
 |25 Normal|||[Warcraftlogs](https://classic.warcraftlogs.com/character/eu/firemaw/evvy#size=25&zone=1015)|
 |10 Normal|||[Warcraftlogs](https://classic.warcraftlogs.com/character/eu/firemaw/evvy#size=10&zone=1015)|
-#### Current Gear:
 
+#### Current Gear:
 |**Gear Links**|[Eighty Upgrades](https://eightyupgrades.com/set/BGpWeiAZcE3dixGSdAR8m)|[WoWSims](https://wowsims.github.io/wotlk/protection_paladin/#eJztVE9IFFEYn++bdZ0dEsdlD69Fl2lOW2C8mWGhgnhTlzquSSDRwQ556mDesotFklpgUQlth5WU6KIlEY2Q4J8CDQLbQPtD4LbutmHoEgoLFfRmBiuNJSu79WN+731/f/PN8GbknRIqSHEXNEIztAFcApjDZfE2wF2Aae4A5AEKgEXADoT9mgQKEFCRQhwaeE8HQC8Ar+9FeOGUwR4hKIRf+s+CP37i2KnjLVKZ4gvPg1ypnPuM5FZE8/dP4NgwygFlIIOa2MPNLcqXT0guRjTxgevZGSTXqjVxxkY5qBQXkRRrtABvyg2jU1GhnC8g6YpoPh4TZEW5wxuuRrTySRv5JXCJMzkk3Vxi0pVIzCNZ5BIzbt65ZaVyYwlJT7XmH/M0A0rSGSfnmvcL3HSG9Cm5OWdNZZy5LueRPK3RxIe2413hop185mTSqRhYRk2SfLQiLjaIN3EF5VEU/uOvEKS/29Eq8ROKBFV4AjG5VoXtbni0xQqrMkp+TokzwImcImc5J3CWhX1EjEIXxGlJ1NIYpTHdjBmU6qZh6rrJoRumodfGqG4YBl8oNdd2vQUiDWZRuZdFMpRFNZvC6LsU0nwK8+ArQHkCAlVNLmbYOAo2wCsIBQ47SI5YVd6joaX6EyhoF8SA67c1rWZC1tbEdQdTbLcXmWbbVvWM16jWk7Id//g0RjutzZBpm3r0C536TbnPn8B7tyNL1j7PL7JGOPTDd15gs33Ne+XZDOMLtz6y9Qr9Trpv9Kd4KXj10+xgujU0eOA9M108ZxMr0aPd44/ZaR5Nt/YzdwvlSup+qLMj7QtD3/KeXpp5+nPMyz9jJ93B37D2BSeQ2fCc6+Go1dmDG+4PUm8S2dpox5ESf4YCW7t/x1eru+7q)|
 
-#### UI (in Raid Environment):
-![](https://i.redd.it/a5yyjwysr9e11.jpg)-->
+<!--#### UI (in Raid Environment):
+![](https://i.redd.it/a5yyjwysr9e11.jpg)
+
 #### VOD(s) (in Raid Environment):
-<!-- Add a placeholder for the Twitch embed -->
-<!--<div id="twitch-embed"></div>-->
-
-<!-- Load the Twitch embed script -->
-<!--<script src="https://player.twitch.tv/js/embed/v1.js"></script>-->
-
-<!-- Create a Twitch.Player object. This will render within the placeholder div -->
-<!--<script type="text/javascript">
+<div id="twitch-embed"></div>
+<script src="https://player.twitch.tv/js/embed/v1.js"></script>
+<script type="text/javascript">
     var options = {
         width: "100%",
         height: "460",
@@ -122,7 +117,8 @@ The answer in this paragraph only allows for a total of 1024 characters in lengt
         video: "1864919909"
     };
     new Twitch.Player("twitch-embed", options);
-</script>-->
+</script>
+-->
 ### What you insert into the Discord form:
 ```
 Combat Analysis (Logs):
