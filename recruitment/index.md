@@ -43,7 +43,9 @@ Yes - Microphone
 
 {: .warning}
 The answer in this paragraph only allows for a total of 1024 characters in length.
-### Example:
+
+### Example summary of useful information:
+Use this example as **an inspiration** for writing **your own version**!
 <dl>
   <dt>Nickname</dt>
   <dd><img src="https://wow.zamimg.com/images/icons/alliance.png"> Evvy</dd>
@@ -122,7 +124,7 @@ The answer in this paragraph only allows for a total of 1024 characters in lengt
     new Twitch.Player("twitch-embed", options);
 </script>
 -->
-### What you insert into the Discord form:
+### An example of how to fill out the form with relevant data:
 ```
 Combat Analysis (Logs):
 ToGC 25 HC:
