@@ -107,6 +107,10 @@
       {
           "name": "Morphang",
           "class": "Death-Knight"
+      },
+      {
+          "name": "Kamìkaze",
+          "class": "Death-Knight"
       }],
       "icon": "inv_jewelcrafting_gem_37"
     },
@@ -715,8 +719,8 @@
       "stats": "+10 Defense Rating and +15 Stamina",
       "status": false,
       "members": [{
-          "name": "",
-          "class": ""
+          "name": "Kamìkaze",
+          "class": "Death-Knight"
       }],
       "icon": "inv_jewelcrafting_gem_41"
     },
