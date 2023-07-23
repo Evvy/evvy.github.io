@@ -717,7 +717,7 @@
       "name": "Enduring Eye of Zul",
       "color": "Green",
       "stats": "+10 Defense Rating and +15 Stamina",
-      "status": false,
+      "status": true,
       "members": [{
           "name": "Kamìkaze",
           "class": "Death-Knight"
