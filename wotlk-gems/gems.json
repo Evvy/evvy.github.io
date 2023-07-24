@@ -422,6 +422,10 @@
       {
           "name": "Morphang",
           "class": "Death-Knight"
+      },
+      {
+          "name": "Faidy",
+          "class": "Paladin"
       }],
       "icon": "inv_jewelcrafting_gem_39"
     },
@@ -440,10 +444,10 @@
       "name": "Resplendent Ametrine",
       "color": "Orange",
       "stats": "+10 Strength and +10 Resilience Rating",
-      "status": false,
+      "status": true,
       "members": [{
-          "name": "",
-          "class": ""
+          "name": "Faidy",
+          "class": "Paladin"
       }],
       "icon": "inv_jewelcrafting_gem_39"
     },
