@@ -4,28 +4,38 @@
   <button type="submit">Submit</button>
 </form>
 
+<form id="myForm">
+	<label for="message">Message:</label>
+	<input type="text" id="message" name="message" required>
+  <button type="submit">Submit</button>
+</form>
+
 <script>
-  const webhookURL = 'https://discord.com/api/webhooks/1077192017282596864/xzWbP27DotDdo69gGGtFZcqPnGGWctaiygnx_HICWVV1tN7DO2XUv_30HClUT1f_zUac';
-  const threadId = '1133143460770234369'
-  document.getElementById('myForm').addEventListener('submit', function(event) {
+const webhookURL = 'https://discord.com/api/webhooks/1077192017282596864/xzWbP27DotDdo69gGGtFZcqPnGGWctaiygnx_HICWVV1tN7DO2XUv_30HClUT1f_zUac';
+const threadIds = [
+    '1133143460770234369',
+    '1133159935971176488'
+    ];
+document.getElementById('myForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
     const message = document.getElementById('message').value;
-
-    fetch(`${webhookURL}?thread_id=${threadId}`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        content: message,
-      }),
-    })
-      .then((response) => {
-        console.log('Message sent to Discord');
-      })
-      .catch((error) => {
-        console.error('Error sending message to Discord:', error);
-      });
-  });
+    threadIds.forEach((threadId) => {
+        fetch(`${webhookURL}?thread_id=${threadId}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+              },
+            body: JSON.stringify({
+                content: message,
+            }),
+        })
+        .then((response) => {
+            console.log('Message sent to Discord');
+        })
+        .catch((error) => {
+            console.error('Error sending message to Discord:', error);
+        });
+    });
+});
 </script>
