@@ -292,6 +292,10 @@
       "members": [{
           "name": "Rahgeal",
           "class": "Hunter"
+      },
+      {
+          "name": "Evvy",
+          "class": "Paladin"
       }],
       "icon": "inv_jewelcrafting_gem_39"
     },
