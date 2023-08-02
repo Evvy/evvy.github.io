@@ -12,6 +12,10 @@
       {
           "name": "Morphang",
           "class": "Death-Knight"
+      },
+      {
+          "name": "Esminel",
+          "class": "Priest"
       }],
       "icon": "inv_misc_gem_pearl_12"
     },
@@ -570,6 +574,10 @@
       "members": [{
           "name": "Rahgeal",
           "class": "Hunter"
+      },
+      {
+          "name": "Esminel",
+          "class": "Priest"
       }],
       "icon": "inv_jewelcrafting_gem_40"
     },
