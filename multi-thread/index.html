@@ -1,35 +1,46 @@
 <form id="myForm">
-  <label for="message">Message:</label>
-  <!-- <input type="text" id="message" name="message" required> -->
-  <textarea id="message" name="message" required></textarea>
-  <button type="submit">Submit</button>
+    <label for="message">Message:</label>
+    <!-- <input type="text" id="message" name="message" required> -->
+    <textarea id="message" name="message" required></textarea>
+    <button type="submit">Submit</button>
 </form>
 
-<script>
-const webhookURL = 'https://discord.com/api/webhooks/1133138660590616739/wwcyK8G0jlohsXIcpenq43Xw0B2mGXkSnrMA4MmZ98RMhA4sV7xjx5lYnjVk5dlZLb9j';
-const threadIds = [
-    '1140455074502549504',
-    ];
-document.getElementById('myForm').addEventListener('submit', function(event) {
-    event.preventDefault();
+<p id="feedback"></p>
 
-    const message = document.getElementById('message').value;
-    threadIds.forEach((threadId) => {
-        fetch(`${webhookURL}?thread_id=${threadId}`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-              },
-            body: JSON.stringify({
-                content: message,
-            }),
-        })
-        .then((response) => {
-            console.log('Message sent to Discord');
-        })
-        .catch((error) => {
-            console.error('Error sending message to Discord:', error);
-        });
+<script>
+    const webhookURL = 'https://discord.com/api/webhooks/1133138660590616739/wwcyK8G0jlohsXIcpenq43Xw0B2mGXkSnrMA4MmZ98RMhA4sV7xjx5lYnjVk5dlZLb9j';
+    const threadIds = [
+        '1140455074502549504',
+    ];
+    const form = document.getElementById('myForm');
+    const feedback = document.getElementById('feedback');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        const message = document.getElementById('message').value;
+
+        for (const threadId of threadIds) {
+            try {
+                const response = await fetch(`${webhookURL}?thread_id=${threadId}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                      },
+                    body: JSON.stringify({
+                        content: message,
+                    }),
+                  });
+                if (response.ok) {
+                    feedback.textContent = 'Message sent to Discord successfully!';
+                        console.log('Message sent to Discord');
+                } else {
+                    feedback.textContent = 'Error sending message to Discord';
+                        console.error('Error sending message to Discord:', response.statusText);
+                }
+            } catch (error) {
+                feedback.textContent = 'An error occurred while sending the message';
+                console.error('Error sending message to Discord:', error);
+            }
+        }
     });
-});
 </script>
