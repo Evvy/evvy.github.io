@@ -67,20 +67,18 @@ document.addEventListener('DOMContentLoaded', () => {
             document.querySelectorAll('input[name="selectedThreads"]:checked').forEach((checkbox) => {
                 threadIds.push(checkbox.value);
             });
-
-            // Check for conflicts
-            const duplicates = findDuplicates(threadIds);
-
-            if (duplicates.length > 0) {
-                const confirmMessage = `You have conflicting thread IDs:\n${duplicates.join(', ')}\nDo you want to proceed?`;
-                if (!confirm(confirmMessage)) {
-                    return;
-                }
-            }
         }
 
         if (threadIds.length === 0 && sendToThread) {
             resultDiv.textContent = "No threads selected to send the message to.";
+            return;
+        }
+
+        // Check for conflicts
+        const duplicates = findDuplicates(threadIds);
+
+        if (duplicates.length > 0) {
+            resultDiv.textContent = `You have conflicting thread IDs: ${duplicates.join(', ')}`;
             return;
         }
 
