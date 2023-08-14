@@ -6,7 +6,7 @@
 </form>
 
 <script>
-const webhookURL = 'https://discord.com/api/webhooks/1077192017282596864/xzWbP27DotDdo69gGGtFZcqPnGGWctaiygnx_HICWVV1tN7DO2XUv_30HClUT1f_zUac';
+const webhookURL = 'https://discord.com/api/webhooks/1133138660590616739/wwcyK8G0jlohsXIcpenq43Xw0B2mGXkSnrMA4MmZ98RMhA4sV7xjx5lYnjVk5dlZLb9j';
 const threadIds = [
     '1140455074502549504',
     ];
@@ -21,8 +21,18 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
                 'Content-Type': 'application/json',
               },
             body: JSON.stringify({
-                content: message,
-            }),
+                content: {
+  "content": "Hey, welcome to <:discohook:736648398081622016> **Discohook**! The easiest way to personalise your Discord server.\n_ _",
+  "embeds": [
+    {
+      "title": "What's this about?",
+      "description": "Discohook is a free tool that allows you to personalise your server to make your server stand out from the crowd. The main way it does this is using [webhooks](https://support.discord.com/hc/en-us/articles/228383668), which allows services like Discohook to send any messages with embeds to your server.\n\nTo get started with sending messages, you need a webhook URL, you can get one via the \"Integrations\" tab in your server's settings. If you're having issues creating a webhook, [the bot](https://discohook.app/bot) can help you create one for you.\n\nKeep in mind that Discohook can't do automation yet, it only sends messages when you tell it to. If you are looking for an automatic feed or custom commands this isn't the right tool for you.",
+      "color": 5814783
+    }
+  ],
+  "attachments": []
+}
+            })
         })
         .then((response) => {
             console.log('Message sent to Discord');
