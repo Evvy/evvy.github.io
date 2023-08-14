@@ -9,8 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     sendToThreadCheckbox.addEventListener('change', () => {
         threadIdInput.disabled = !sendToThreadCheckbox.checked;
         importThreadsInput.disabled = !sendToThreadCheckbox.checked;
-        // Reset and clear imported thread list
-        threadListDiv.innerHTML = "";
+        threadListDiv.innerHTML = ""; // Clear imported thread list
     });
 
     importThreadsInput.addEventListener('change', (e) => {
@@ -60,6 +59,10 @@ document.addEventListener('DOMContentLoaded', () => {
         let selectedThreadIds = [];
 
         if (sendToThread) {
+            if (threadId) {
+                selectedThreadIds.push(threadId);
+            }
+
             document.querySelectorAll('input[name="selectedThreads"]:checked').forEach((checkbox) => {
                 selectedThreadIds.push(checkbox.value);
             });
