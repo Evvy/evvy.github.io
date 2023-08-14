@@ -15,7 +15,7 @@
     const form = document.getElementById('myForm');
     const feedback = document.getElementById('feedback');
 
-    form.addEventListener('submit', function(event) {
+    form.addEventListener('submit', async function(event) {
         event.preventDefault();
         const message = document.getElementById('message').value;
 
