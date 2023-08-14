@@ -67,6 +67,18 @@ document.addEventListener('DOMContentLoaded', () => {
             document.querySelectorAll('input[name="selectedThreads"]:checked').forEach((checkbox) => {
                 threadIds.push(checkbox.value);
             });
+
+            const uniqueThreadIds = Array.from(new Set(threadIds));
+
+            // Check for conflicts
+            const duplicates = findDuplicates(threadIds);
+
+            if (duplicates.length > 0) {
+                const confirmMessage = `You have conflicting thread IDs:\n${duplicates.join(', ')}\nDo you want to proceed?`;
+                if (!confirm(confirmMessage)) {
+                    return;
+                }
+            }
         }
 
         if (threadIds.length === 0 && sendToThread) {
@@ -107,3 +119,18 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+function findDuplicates(arr) {
+    const duplicates = [];
+    const uniqueValues = new Set();
+
+    for (const value of arr) {
+        if (uniqueValues.has(value)) {
+            duplicates.push(value);
+        } else {
+            uniqueValues.add(value);
+        }
+    }
+
+    return duplicates;
+}
