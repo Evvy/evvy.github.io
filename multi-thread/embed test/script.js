@@ -3,12 +3,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const resultDiv = document.getElementById('result');
     const sendToThreadCheckbox = document.getElementById('sendToThread');
     const threadIdInput = document.getElementById('threadId');
-    const manualThreadIdInput = document.getElementById('manualThreadId');
     const importThreadsInput = document.getElementById('importThreads');
     const threadListDiv = document.getElementById('threadList');
 
     sendToThreadCheckbox.addEventListener('change', () => {
         threadIdInput.disabled = !sendToThreadCheckbox.checked;
+        importThreadsInput.disabled = !sendToThreadCheckbox.checked;
+        // Reset and clear imported thread list
+        threadListDiv.innerHTML = "";
     });
 
     importThreadsInput.addEventListener('change', (e) => {
@@ -55,23 +57,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const sendToThread = sendToThreadCheckbox.checked;
         const threadId = threadIdInput.value;
 
-        const manualThreadId = manualThreadIdInput.value.trim();
-
         let selectedThreadIds = [];
 
-        document.querySelectorAll('input[name="selectedThreads"]').forEach((checkbox) => {
-            checkbox.disabled = true;
-        });
-
-        document.querySelectorAll('input[name="selectedThreads"]:checked').forEach((checkbox) => {
-            const id = checkbox.value;
-            if (id !== manualThreadId) {
-                selectedThreadIds.push(id);
-            }
-        });
-
-        if (manualThreadId !== "" && manualThreadId !== threadId) {
-            selectedThreadIds.push(manualThreadId);
+        if (sendToThread) {
+            document.querySelectorAll('input[name="selectedThreads"]:checked').forEach((checkbox) => {
+                selectedThreadIds.push(checkbox.value);
+            });
         }
 
         let url = webhookUrl;
