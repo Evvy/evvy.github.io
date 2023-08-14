@@ -1,114 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Discord Webhook Example</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Webhook Sender</title>
 </head>
 <body>
-  <div id="tabContainer">
-    <button id="messageTab">Message</button>
-    <button id="embedTab">Embed</button>
-  </div>
-
-  <div id="contentContainer"></div>
-
-  <div id="previewContainer"></div>
-
-  <script>
-    const webhookURL = 'https://discord.com/api/webhooks/1133138660590616739/wwcyK8G0jlohsXIcpenq43Xw0B2mGXkSnrMA4MmZ98RMhA4sV7xjx5lYnjVk5dlZLb9j';
-    const threadIds = ['1140455074502549504']; // Add thread IDs
-
-    const tabContainer = document.getElementById('tabContainer');
-    const contentContainer = document.getElementById('contentContainer');
-    const previewContainer = document.getElementById('previewContainer');
-
-    tabContainer.addEventListener('click', (event) => {
-      if (event.target.id === 'messageTab') {
-        displayMessageForm();
-      } else if (event.target.id === 'embedTab') {
-        displayEmbedForm();
-      }
-    });
-
-    function displayMessageForm() {
-      const messageForm = `
-        <form id="messageForm">
-          <textarea id="message" name="message" required></textarea>
-          <button type="submit">Submit Message</button>
+    <div class="container">
+        <h1>Webhook Sender</h1>
+        <form id="webhookForm">
+            <label for="platform">Platform:</label>
+            <select id="platform" name="platform">
+                <option value="discord">Discord</option>
+                <!-- Add other platforms here -->
+            </select>
+            <label for="webhookUrl">Webhook URL:</label>
+            <input type="text" id="webhookUrl" name="webhookUrl" placeholder="Enter webhook URL" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+            <label for="sendToThread">Send to Thread:</label>
+            <input type="checkbox" id="sendToThread" name="sendToThread">
+            <label for="threadId">Thread ID:</label>
+            <input type="text" id="threadId" name="threadId" placeholder="Enter thread ID" disabled>
+            <button type="submit">Send Message</button>
         </form>
-      `;
-      contentContainer.innerHTML = messageForm;
-      previewContainer.innerHTML = '';
-    }
-
-    function displayEmbedForm() {
-      const embedForm = `
-        <form id="embedForm">
-          <h2>Embed Editor</h2>
-          <label for="title">Title:</label>
-          <input type="text" id="title" name="title" required>
-          <label for="description">Description:</label>
-          <input type="text" id="description" name="description" required>
-          <label for="color">Color:</label>
-          <input type="color" id="color" name="color">
-          <button type="submit">Create Embed</button>
-        </form>
-      `;
-      contentContainer.innerHTML = embedForm;
-      previewContainer.innerHTML = '';
-    }
-
-    contentContainer.addEventListener('submit', function(event) {
-      event.preventDefault();
-
-      const formData = new FormData(contentContainer.querySelector('form'));
-      const data = {};
-
-      formData.forEach((value, key) => {
-        data[key] = value;
-      });
-
-      threadIds.forEach((threadId) => {
-        sendToDiscord(data, threadId);
-      });
-
-      updatePreview(data);
-    });
-
-    function sendToDiscord(data, threadId) {
-      fetch(`${webhookURL}?thread_id=${threadId}`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(data),
-      })
-      .then((response) => {
-        if (response.ok) {
-          console.log('Data sent to Discord');
-        } else {
-          console.error('Error sending data to Discord:', response.statusText);
-        }
-      })
-      .catch((error) => {
-        console.error('Error sending data to Discord:', error);
-      });
-    }
-
-    function updatePreview(data) {
-      const { title, description, color } = data;
-
-      const preview = `
-        <div style="border: 2px solid #ccc; padding: 10px;">
-          <h2>${title}</h2>
-          <p>${description}</p>
-          <div style="background-color: ${color}; width: 50px; height: 50px;"></div>
-        </div>
-      `;
-
-      previewContainer.innerHTML = preview;
-    }
-  </script>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
