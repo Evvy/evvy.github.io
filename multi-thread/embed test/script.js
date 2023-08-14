@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function parseThreadIdsFromFile(file) {
         const reader = new FileReader();
         reader.onload = function(event) {
-            const threadIds = event.target.result.split('\n');
+            const threadIds = event.target.result.split('\n').map(threadId => threadId.trim());
             displayThreadIds(threadIds);
         };
         reader.readAsText(file);
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const checkbox = document.createElement('input');
             checkbox.type = 'checkbox';
             checkbox.name = 'selectedThreads';
-            checkbox.value = threadId.trim();
+            checkbox.value = threadId;
             checkbox.id = `thread_${threadId}`;
 
             const label = document.createElement('label');
