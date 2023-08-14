@@ -68,34 +68,41 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
-        let url = webhookUrl;
-
-        if (sendToThread && selectedThreadIds.length > 0) {
-            url += `?thread_id=${selectedThreadIds.join(',')}`;
+        if (selectedThreadIds.length === 0) {
+            resultDiv.textContent = "No threads selected to send the message to.";
+            return;
         }
 
-        const payload = {
-            content: message
-        };
+        // Loop through each thread ID and send a separate request
+        for (const id of selectedThreadIds) {
+            let url = webhookUrl;
+            if (sendToThread) {
+                url += `?thread_id=${id}`;
 
-        try {
-            const response = await fetch(url, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(payload)
-            });
+                const payload = {
+                    content: message
+                };
 
-            const responseData = await response.json();
+                try {
+                    const response = await fetch(url, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(payload)
+                    });
 
-            if (response.ok) {
-                resultDiv.textContent = `Message sent successfully to ${platform}. Response: ${JSON.stringify(responseData)}`;
-            } else {
-                resultDiv.textContent = `Failed to send message. Response: ${JSON.stringify(responseData)}`;
+                    const responseData = await response.json();
+
+                    if (response.ok) {
+                        resultDiv.textContent = `Message sent successfully to ${platform}. Response: ${JSON.stringify(responseData)}`;
+                    } else {
+                        resultDiv.textContent = `Failed to send message. Response: ${JSON.stringify(responseData)}`;
+                    }
+                } catch (error) {
+                    resultDiv.textContent = `An error occurred: ${error.message}`;
+                }
             }
-        } catch (error) {
-            resultDiv.textContent = `An error occurred: ${error.message}`;
         }
     });
 });
