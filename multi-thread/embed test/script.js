@@ -74,13 +74,10 @@ document.addEventListener('DOMContentLoaded', () => {
             selectedThreadIds.push(manualThreadId);
         }
 
-        // Convert selectedThreadIds to a Set and back to an array to remove duplicates
-        const uniqueSelectedThreadIds = Array.from(new Set(selectedThreadIds));
-
         let url = webhookUrl;
 
-        if (sendToThread && uniqueSelectedThreadIds.length > 0) {
-            url += `?thread_id=${uniqueSelectedThreadIds.join(',')}`;
+        if (sendToThread && selectedThreadIds.length > 0) {
+            url += `?thread_id=${selectedThreadIds.join(',')}`;
         }
 
         const payload = {
