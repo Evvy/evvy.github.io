@@ -55,14 +55,38 @@ document.addEventListener('DOMContentLoaded', () => {
         const message = document.getElementById('message').value;
         const sendToThread = sendToThreadCheckbox.checked;
 
-        if (!sendToThread) {
-            // Send the message to the channel
+        let threadIds = [];
+
+        if (sendToThread) {
+            const manualThreadId = threadIdInput.value.trim();
+
+            if (manualThreadId) {
+                threadIds.push(manualThreadId);
+            }
+
+            document.querySelectorAll('input[name="selectedThreads"]:checked').forEach((checkbox) => {
+                threadIds.push(checkbox.value);
+            });
+        }
+
+        if (threadIds.length === 0 && sendToThread) {
+            resultDiv.textContent = "No threads selected to send the message to.";
+            return;
+        }
+
+        for (const id of threadIds) {
+            let url = webhookUrl;
+
+            if (sendToThread) {
+                url += `?thread_id=${id}`;
+            }
+
             const payload = {
                 content: message
             };
 
             try {
-                const response = await fetch(webhookUrl, {
+                const response = await fetch(url, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -79,56 +103,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             } catch (error) {
                 resultDiv.textContent = `An error occurred: ${error.message}`;
-            }
-        } else {
-            // Send the message to the selected threads
-            const threadId = threadIdInput.value;
-
-            let selectedThreadIds = [];
-
-            if (threadId) {
-                selectedThreadIds.push(threadId);
-            }
-
-            document.querySelectorAll('input[name="selectedThreads"]:checked').forEach((checkbox) => {
-                selectedThreadIds.push(checkbox.value);
-            });
-
-            // Use a Set to track unique thread IDs
-            const uniqueThreadIdsSet = new Set(selectedThreadIds);
-            selectedThreadIds = Array.from(uniqueThreadIdsSet); // Convert back to array
-
-            if (selectedThreadIds.length === 0) {
-                resultDiv.textContent = "No threads selected to send the message to.";
-                return;
-            }
-
-            // Loop through each thread ID and send a separate request
-            for (const id of selectedThreadIds) {
-                let url = webhookUrl + `?thread_id=${id}`;
-                const payload = {
-                    content: message
-                };
-
-                try {
-                    const response = await fetch(url, {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json'
-                        },
-                        body: JSON.stringify(payload)
-                    });
-
-                    const responseData = await response.json();
-
-                    if (response.ok) {
-                        resultDiv.textContent = `Message sent successfully to ${platform}. Response: ${JSON.stringify(responseData)}`;
-                    } else {
-                        resultDiv.textContent = `Failed to send message. Response: ${JSON.stringify(responseData)}`;
-                    }
-                } catch (error) {
-                    resultDiv.textContent = `An error occurred: ${error.message}`;
-                }
             }
         }
     });
