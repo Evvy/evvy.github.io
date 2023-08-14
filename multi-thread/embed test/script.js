@@ -68,8 +68,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 threadIds.push(checkbox.value);
             });
 
-            const uniqueThreadIds = Array.from(new Set(threadIds));
-
             // Check for conflicts
             const duplicates = findDuplicates(threadIds);
 
@@ -121,14 +119,13 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function findDuplicates(arr) {
+    const counts = {};
     const duplicates = [];
-    const uniqueValues = new Set();
 
     for (const value of arr) {
-        if (uniqueValues.has(value)) {
+        counts[value] = (counts[value] || 0) + 1;
+        if (counts[value] > 1) {
             duplicates.push(value);
-        } else {
-            uniqueValues.add(value);
         }
     }
 
