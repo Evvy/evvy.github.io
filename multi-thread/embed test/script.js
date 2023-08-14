@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const resultDiv = document.getElementById('result');
     const sendToThreadCheckbox = document.getElementById('sendToThread');
     const threadIdInput = document.getElementById('threadId');
+    const manualThreadIdInput = document.getElementById('manualThreadId');
     const importThreadsInput = document.getElementById('importThreads');
     const threadListDiv = document.getElementById('threadList');
 
@@ -54,16 +55,28 @@ document.addEventListener('DOMContentLoaded', () => {
         const sendToThread = sendToThreadCheckbox.checked;
         const threadId = threadIdInput.value;
 
+        const manualThreadId = manualThreadIdInput.value.trim();
+
         let selectedThreadIds = [];
-        document.querySelectorAll('input[name="selectedThreads"]:checked').forEach((checkbox) => {
-            selectedThreadIds.push(checkbox.value);
+
+        document.querySelectorAll('input[name="selectedThreads"]').forEach((checkbox) => {
+            checkbox.disabled = true;
         });
+
+        document.querySelectorAll('input[name="selectedThreads"]:checked').forEach((checkbox) => {
+            const id = checkbox.value;
+            if (id !== manualThreadId) {
+                selectedThreadIds.push(id);
+            }
+        });
+
+        if (manualThreadId !== "" && manualThreadId !== threadId) {
+            selectedThreadIds.push(manualThreadId);
+        }
 
         let url = webhookUrl;
 
-        if (sendToThread && threadId.trim() !== "") {
-            url += `?thread_id=${threadId}`;
-        } else if (sendToThread && selectedThreadIds.length > 0) {
+        if (sendToThread && selectedThreadIds.length > 0) {
             url += `?thread_id=${selectedThreadIds.join(',')}`;
         }
 
