@@ -17,16 +17,18 @@ document.addEventListener('DOMContentLoaded', () => {
         const sendToThread = sendToThreadCheckbox.checked;
         const threadId = threadIdInput.value;
 
+        let url = webhookUrl;
+
+        if (sendToThread && threadId) {
+            url += `?thread_id=${threadId}`;
+        }
+
         const payload = {
             content: message
         };
 
-        if (sendToThread && threadId) {
-            payload.thread_id = threadId;
-        }
-
         try {
-            const response = await fetch(webhookUrl, {
+            const response = await fetch(url, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
