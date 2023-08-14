@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Discord Webhook Embed Editor</title>
+</head>
+<body>
+  <form id="myForm">
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    <button type="submit">Submit Message</button>
+  </form>
+
+  <form id="embedForm">
+    <h2>Embed Editor</h2>
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title" required>
+    <label for="description">Description:</label>
+    <input type="text" id="description" name="description" required>
+    <label for="color">Color:</label>
+    <input type="color" id="color" name="color">
+    <button type="submit">Create Embed</button>
+  </form>
+
+  <div id="embedPreview"></div>
+
+  <script>
+    const webhookURL = 'https://discord.com/api/webhooks/1133138660590616739/wwcyK8G0jlohsXIcpenq43Xw0B2mGXkSnrMA4MmZ98RMhA4sV7xjx5lYnjVk5dlZLb9j';
+    const threadIds = ['1140455074502549504']; // Add thread IDs
+
+    const messageForm = document.getElementById('myForm');
+    const embedForm = document.getElementById('embedForm');
+    const embedPreview = document.getElementById('embedPreview');
+
+    messageForm.addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      const message = document.getElementById('message').value;
+
+      threadIds.forEach((threadId) => {
+        sendToDiscord(message, threadId);
+      });
+    });
+
+    embedForm.addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      const title = document.getElementById('title').value;
+      const description = document.getElementById('description').value;
+      const color = document.getElementById('color').value;
+
+      const embed = {
+        title,
+        description,
+        color: parseInt(color.replace('#', ''), 16)
+      };
+
+      embedPreview.innerHTML = `
+        <h2>${embed.title}</h2>
+        <p>${embed.description}</p>
+      `;
+
+      threadIds.forEach((threadId) => {
+        sendToDiscord(embed, threadId);
+      });
+    });
+
+    function sendToDiscord(content, threadId) {
+      fetch(`${webhookURL}?thread_id=${threadId}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          content,
+        }),
+      })
+      .then((response) => {
+        if (response.ok) {
+          console.log('Message/Embed sent to Discord');
+        } else {
+          console.error('Error sending message/embed to Discord:', response.statusText);
+        }
+      })
+      .catch((error) => {
+        console.error('Error sending message/embed to Discord:', error);
+      });
+    }
+  </script>
+</body>
+</html>
