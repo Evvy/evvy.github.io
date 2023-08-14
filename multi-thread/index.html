@@ -1,14 +1,14 @@
 <form id="myForm">
   <label for="message">Message:</label>
-  <input type="text" id="message" name="message" required>
+  <!-- <input type="text" id="message" name="message" required> -->
+  <textarea id="message" name="message" required></textarea>
   <button type="submit">Submit</button>
 </form>
 
 <script>
 const webhookURL = 'https://discord.com/api/webhooks/1077192017282596864/xzWbP27DotDdo69gGGtFZcqPnGGWctaiygnx_HICWVV1tN7DO2XUv_30HClUT1f_zUac';
 const threadIds = [
-    '1133143460770234369',
-    '1133159935971176488'
+    '1140455074502549504',
     ];
 document.getElementById('myForm').addEventListener('submit', function(event) {
     event.preventDefault();
