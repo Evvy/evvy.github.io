@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let url = webhookUrl;
 
-        if (sendToThread && threadId) {
+        if (sendToThread && threadId.trim() !== "") {
             url += `?thread_id=${threadId}`;
         }
 
