@@ -196,6 +196,10 @@
       "members": [{
           "name": "Morphang",
           "class": "Death-Knight"
+      },
+      {
+          "name": "Kamìkaze",
+          "class": "Death-Knight"
       }],
       "icon": "inv_jewelcrafting_gem_38"
     },
