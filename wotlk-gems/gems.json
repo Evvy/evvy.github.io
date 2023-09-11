@@ -115,6 +115,10 @@
       {
           "name": "Kamìkaze",
           "class": "Death-Knight"
+      },
+      {
+          "name": "Xbeth",
+          "class": "Mage"
       }],
       "icon": "inv_jewelcrafting_gem_37"
     },
@@ -623,10 +627,10 @@
       "name": "Guardian's Dreadstone",
       "color": "Purple",
       "stats": "+10 Expertise Rating and +15 Stamina",
-      "status": false,
+      "status": true,
       "members": [{
-          "name": "",
-          "class": ""
+          "name": "Kamìkaze",
+          "class": "Death-Knight"
       }],
       "icon": "inv_jewelcrafting_gem_40"
     },
@@ -667,10 +671,10 @@
       "name": "Puissant Dreadstone",
       "color": "Purple",
       "stats": "+10 Armor Penetration Rating and +15 Stamina",
-      "status": false,
+      "status": true,
       "members": [{
-          "name": "",
-          "class": ""
+        "name": "Kamìkaze",
+          "class": "Death-Knight"
       }],
       "icon": "inv_jewelcrafting_gem_40"
     },
@@ -729,6 +733,10 @@
       },
       {
           "name": "Morphang",
+          "class": "Death-Knight"
+      },
+      {
+          "name": "Kamìkaze",
           "class": "Death-Knight"
       }],
       "icon": "inv_jewelcrafting_gem_41"
