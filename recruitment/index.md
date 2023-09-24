@@ -143,6 +143,7 @@ The answer in this paragraph only allows for a total of 1024 characters in lengt
 **VOD(s):**
 > Preferably in a raiding environment.<br>
 `https://www.twitch.tv/videos/1864919909`
+
 <!--```
 Combat Analysis (Logs):
 ToGC 25 HC:
