@@ -126,22 +126,22 @@ The answer in this paragraph only allows for a total of 1024 characters in lengt
 -->
 ### An example of how to fill out the form with relevant data:
 **Logs:**
-> We're only interested in logs relevant to the character you're applying with.
-> If you want to link to specific raids, that's fine too.
+> We're only interested in logs relevant to the character you're applying with.<br>
+> If you want to link to specific raids, that's fine too.<br>
 `https://classic.warcraftlogs.com/character/eu/firemaw/evvy`
 
 **UI (preferably in a raid environment):**
-> Screenshot should contain your __entire UI with keybinds__.
-> Feel free to explain any gaps/missing parts and/or unconventional choices.
+> Screenshot should contain your __entire UI with keybinds__.<br>
+> Feel free to explain any gaps/missing parts and/or unconventional choices.<br>
 `https://i.redd.it/a5yyjwysr9e11.jpg`
 
 ### Bonus Points for:
 **Current Gear:**
-> Alternatives such as WoWhead will also suffice.
+> Alternatives such as WoWhead will also suffice.<br>
 `https://eightyupgrades.com/set/BGpWeiAZcE3dixGSdAR8m`
 
 **VOD(s):**
-> Preferably in a raiding environment.
+> Preferably in a raiding environment.<br>
 `https://www.twitch.tv/videos/1864919909`
 <!--```
 Combat Analysis (Logs):
