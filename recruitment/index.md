@@ -37,7 +37,7 @@ Yes - High Attendance
 Yes - Preparation
 Yes - Microphone
 ``` -->
-[Take me back to the application!](discord:https://discord.com/channels/860977926229196840/1119767347939528815/1129902684762288169){: .btn .btn-purple }
+
 ## **Question 1:**📜 Do you comply with our expectations?
 ### A simple __YES__ or __NO__ is enough.
 [Take me back to the application!](discord:https://discord.com/channels/860977926229196840/1119767347939528815/1129902684762288169){: .btn .btn-purple }
