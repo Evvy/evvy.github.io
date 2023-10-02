@@ -38,8 +38,10 @@ Yes - Preparation
 Yes - Microphone
 ``` -->
 [Take me back to the application!](discord:https://discord.com/channels/860977926229196840/1119767347939528815/1129902684762288169){: .btn .btn-purple }
+## **Question 1:**📜 Do you comply with our expectations?
+A simply yes or no is enough.
 
-## **Question 1:** 👋 Please introduce yourself
+## **Question 2:** 👋 Please introduce yourself
 
 {: .warning}
 The answer in this paragraph only allows for a total of 1024 characters in length.
@@ -89,7 +91,7 @@ I am comfortable using voice communication in raids and actively participate in 
 [Take me back to the application!](discord:https://discord.com/channels/860977926229196840/1119767347939528815/1129902684762288169){: .btn .btn-purple }
 
 <!-- ## **Question 2:** 🔗 Link relevant URL(s) -->
-## **Question 2:** 🔗 Link logs, gear and screenshot of UI
+## **Question 3:** 🔗 Link logs, gear and screenshot of UI
 
 {: .warning}
 The answer in this paragraph only allows for a total of 1024 characters in length.
@@ -178,7 +180,7 @@ https://www.twitch.tv/videos/1864919909
 -->
 [Take me back to the application!](discord:https://discord.com/channels/860977926229196840/1119767347939528815/1129902684762288169){: .btn .btn-purple }
 
-## **Question 3:**🎯 What measures do you take to perform well?
+## **Question 4:**🎯 What measures do you take to perform well?
 
 {: .warning}
 The answer in this paragraph only allows for a total of 1024 characters in length.
@@ -190,7 +192,7 @@ You are otherwise free to present this is any preferred manner.
 
 [Take me back to the application!](discord:https://discord.com/channels/860977926229196840/1119767347939528815/1129902684762288169){: .btn .btn-purple }
 
-## **Question 4:** ⭐ How have you prepared for ICC?
+## **Question 5:** ⭐ How have you prepared for ICC?
 
 {: .warning}
 The answer in this paragraph only allows for a total of 1024 characters in length.
