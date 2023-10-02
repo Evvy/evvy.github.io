@@ -190,7 +190,7 @@ You are otherwise free to present this is any preferred manner.
 
 [Take me back to the application!](discord:https://discord.com/channels/860977926229196840/1119767347939528815/1129902684762288169){: .btn .btn-purple }
 
-## **Question 4:** ⭐ ICC: Coming next week. How do you prepare?
+## **Question 4:** ⭐ How have you prepared for ICC?
 
 {: .warning}
 The answer in this paragraph only allows for a total of 1024 characters in length.
