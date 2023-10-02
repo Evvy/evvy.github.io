@@ -183,10 +183,10 @@ https://www.twitch.tv/videos/1864919909
 {: .warning}
 The answer in this paragraph only allows for a total of 1024 characters in length.
 
-### Definition and execution
-Give us a __brief explanation__ of what you consider good performance, and what you do to ensure you achieve it.
-
-![](https://i.gyazo.com/fb738ed84dbc5b06bef120d31f40ef6f.png)
+### This is an open question!
+Make sure we get a decent understanding of your mentality while playing, and how you actively work to perform better.
+Examples might serve you well!
+You are otherwise free to present this is any preferred manner.
 
 [Take me back to the application!](discord:https://discord.com/channels/860977926229196840/1119767347939528815/1129902684762288169){: .btn .btn-purple }
 
