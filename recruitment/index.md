@@ -53,7 +53,7 @@ Use this example as **an inspiration** for writing **your own version**!
   <dt>Nickname</dt>
   <dd><img src="https://wow.zamimg.com/images/icons/horde.png"> Evvy</dd>
   <dt>Race</dt>
-  <dd><img src="https://wow.zamimg.com/images/wow/icons/tiny/race_bloodelf_female.gif"> Human</dd>
+  <dd><img src="https://wow.zamimg.com/images/wow/icons/tiny/race_bloodelf_female.gif"> Blood Elf</dd>
   <dt>Class</dt>
   <dd><img src="https://wow.zamimg.com/images/wow/icons/tiny/class_paladin.gif"> Paladin</dd>
   <dt>Main-/Off-spec</dt>
