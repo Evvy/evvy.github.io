@@ -48,9 +48,9 @@ The answer in this paragraph only allows for a total of 1024 characters in lengt
 Use this example as **an inspiration** for writing **your own version**!
 <dl>
   <dt>Nickname</dt>
-  <dd><img src="https://wow.zamimg.com/images/icons/alliance.png"> Evvy</dd>
+  <dd><img src="https://wow.zamimg.com/images/icons/horde.png"> Evvy</dd>
   <dt>Race</dt>
-  <dd><img src="https://wow.zamimg.com/images/wow/icons/tiny/race_human_female.gif"> Human</dd>
+  <dd><img src="https://wow.zamimg.com/images/wow/icons/tiny/race_bloodelf_female.gif"> Human</dd>
   <dt>Class</dt>
   <dd><img src="https://wow.zamimg.com/images/wow/icons/tiny/class_paladin.gif"> Paladin</dd>
   <dt>Main-/Off-spec</dt>
@@ -58,7 +58,7 @@ Use this example as **an inspiration** for writing **your own version**!
   <dt>Professions</dt>
   <dd><img src="https://wow.zamimg.com/images/wow/icons/tiny/inv_misc_gem_01.gif"> Jewelcrafting / <img src="https://wow.zamimg.com/images/wow/icons/tiny/trade_engineering.gif"> Engineering</dd>
   <dt>Gearscore/iLvL</dt>
-  <dd><img src="https://wow.zamimg.com/images/wow/icons/tiny/inv_chest_plate01.gif"> 5543/249</dd>
+  <dd><img src="https://wow.zamimg.com/images/wow/icons/tiny/inv_chest_plate01.gif"> 5732/254</dd>
 </dl>
 
 I got to know about you guys <[Location](#)>, and your <[Means of Communication](#)> caught my interest <[This Way](#)>.
