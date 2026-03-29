@@ -84,24 +84,24 @@ I want to make sure this clicks before we install anything.
 
 ### Questions for you:
 1. In your own words: What is an **event** in Minecraft/plugin development?
-<details>
-<summary><strong>Click to see the answer!</strong></summary>
-👉 An <strong>event</strong> is an object created and dispatched by the server to represent that a specific action or occurrence has taken place in the game..<br>
-💡 Key Insight: Events don’t just notify you — they also carry information.
-</details>
+    <details>
+    <summary><strong>Click to see the answer!</strong></summary>
+    👉 An <strong>event</strong> is an object created and dispatched by the server to represent that a specific action or occurrence has taken place in the game..<br>
+    💡 Key Insight: Events don’t just notify you — they also carry information.
+    </details>
 
 
 2. What’s the difference between: a **plugin** and a **mod**
-<details>
-<summary><strong>Click to see the answer!</strong></summary>
-👉 A <strong>plugin</strong> is a server-side Java program that extends or modifies gameplay behavior by interacting with a server API, without directly altering the base game code.<br>
-👉 A <strong>mod (modification)</strong> is a program that directly alters or extends the game's code and assets, allowing deep changes such as new blocks, items, mechanics, or rendering behavior.<br>
-🔍 Important Distinction:
-<ul>
-<li>Plugins → work on top of the game</li>
-<li>Mods → change inside the game</li>
-</ul>
-</details>
+    <details>
+    <summary><strong>Click to see the answer!</strong></summary>
+    👉 A <strong>plugin</strong> is a server-side Java program that extends or modifies gameplay behavior by interacting with a server API, without directly altering the base game code.<br>
+    👉 A <strong>mod (modification)</strong> is a program that directly alters or extends the game's code and assets, allowing deep changes such as new blocks, items, mechanics, or rendering behavior.<br>
+    🔍 Important Distinction:
+    <ul>
+    <li>Plugins → work on top of the game</li>
+    <li>Mods → change inside the game</li>
+    </ul>
+    </details>
 
 
 3. What do you think this means: **“event-driven programming”**?

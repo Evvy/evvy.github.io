@@ -41,14 +41,10 @@ html {
     font-weight: 400;
 }
 
-.markdown-body > p {
-    margin-top: 0;
-    margin-bottom: 1.5em;
-}
-
 .markdown-body p {
     line-height: 1.6;
-    margin: 0 0 8.5px;
+    margin-top: 0;
+    margin-bottom: 1.5em;
 }
 
 .markdown-body blockquote p {
@@ -65,7 +61,6 @@ html {
     margin-top: 0;
     padding-inline-start: 40px;
 }
-
 
 
 .markdown-body blockquote {
@@ -85,6 +80,11 @@ html {
     border-radius: 3px;
     padding: 2px 4px;
     font-size: 90%;
+}
+
+.markdown-body details {
+    line-height: 1.6;
+    margin-bottom: 1.5em;
 }
 
 @media (max-width: 767px) {
