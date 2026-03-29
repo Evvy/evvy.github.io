@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Hello
 
 This is GitHub-style markdown.
