@@ -76,22 +76,21 @@ html {
 }
 
 .markdown-body pre {
-  background: transparent !important;
-  padding: 0 !important;
-  border: 0 !important;
-  margin: 1em 0 !important;
-  overflow: visible !important;
+  background: #282c34;
+  border-radius: 6px;
+  padding: 16px;
+  overflow: auto;
+  border: none;
 }
 
 .markdown-body pre code.hljs {
   display: block;
-  padding: 1em !important;
-  border-radius: 6px;
-  overflow-x: auto;
-  background: #282c34 !important;
+  background: transparent;
+  padding: 0;
+  border: 0;
 }
 
-.markdown-body code:not(.hljs) {
+.markdown-body code:not(pre code) {
   background: #31363f;
   padding: 0.2em 0.4em;
   border-radius: 6px;
