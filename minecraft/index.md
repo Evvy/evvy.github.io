@@ -1,8 +1,9 @@
 ---
 layout: default
+title: Minecraftd
 ---
 
-# Hello
+# Minecraft
 
 This is GitHub-style markdown.
 

@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Evvy's Coding Adventure
+title: Home
 ---
+
 
 # Welcome to the Portal
 Select a game to see my coding progress:
