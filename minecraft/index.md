@@ -20,17 +20,30 @@ Here is a footnote[^1].
 - [ ] https://github.com/octo-org/octo-repo/issues/740
 - [ ] Add delight to the experience when all tasks are complete :tada:
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
+I need to highlight these ==very important words==.
 
-> [!TIP]
-> Helpful advice for doing things better or more easily.
+That is so funny! :joy:
 
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
+H~2~O
 
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
+~~The world is flat.~~ We now know that the world is round.
 
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
+First Term
+: This is the definition of the first term.
+
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
