@@ -51,6 +51,10 @@ html {
     margin: 0 0 8.5px;
 }
 
+.markdown-body blockquote p {
+    margin-bottom: 0;
+}
+
 .markdown-body strong {
     color: #fff;
     font-weight: bold;
