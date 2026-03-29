@@ -97,7 +97,7 @@ html {
     border-radius: 3px;
 }
 
-.markdown-body details:open ul:last-of-type {
+.markdown-body details:open ul:last-of-type, p:last-of-type {
     margin-bottom: 0;
 }
 
