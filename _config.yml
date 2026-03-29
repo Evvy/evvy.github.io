@@ -1,3 +1,4 @@
 markdown: GFM
 kramdown:
-  syntax_highlighter: none
+  syntax_highlighter_opts:
+    disable: true
