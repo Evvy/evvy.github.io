@@ -1,0 +1,106 @@
+.highlight {
+  background: #282c34;
+  color: #abb2bf;
+}
+
+/* Comments */
+.highlight .c,
+.highlight .cm,
+.highlight .c1,
+.highlight .cs {
+  color: #5c6370;
+  font-style: italic;
+}
+
+/* Keywords */
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kt {
+  color: #c678dd;
+}
+
+/* Strings */
+.highlight .s,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .sr,
+.highlight .s1,
+.highlight .ss {
+  color: #98c379;
+}
+
+/* Numbers */
+.highlight .m,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo {
+  color: #d19a66;
+}
+
+/* Functions */
+.highlight .nf,
+.highlight .fm {
+  color: #61afef;
+}
+
+/* Classes / types */
+.highlight .nc,
+.highlight .nn {
+  color: #e5c07b;
+}
+
+/* Builtins */
+.highlight .nb {
+  color: #e5c07b;
+}
+
+/* Variables */
+.highlight .nv,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi {
+  color: #e06c75;
+}
+
+/* Operators */
+.highlight .o,
+.highlight .ow {
+  color: #56b6c2;
+}
+
+/* Punctuation */
+.highlight .p {
+  color: #abb2bf;
+}
+
+/* Attributes */
+.highlight .na {
+  color: #d19a66;
+}
+
+/* Tags */
+.highlight .nt {
+  color: #e06c75;
+}
+
+/* Constants */
+.highlight .no {
+  color: #d19a66;
+}
+
+/* Generic */
+.highlight .gd { color: #e06c75; }
+.highlight .gi { color: #98c379; }
+.highlight .ge { font-style: italic; }
+.highlight .gs { font-weight: bold; }
