@@ -107,6 +107,14 @@ html {
 
 .markdown-body summary {
     margin-bottom: 1em;
+    cursor: pointer;
+    color: #58a6ff;
+}
+
+.markdown-body summary:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
 }
 
 @media (max-width: 767px) {

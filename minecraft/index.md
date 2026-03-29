@@ -113,10 +113,10 @@ I want to make sure this clicks before we install anything.
     <li>Paradigm = a style or way of programming</li>
     <li>Flow of execution = the order in which code runs</li>
     </ul>
-    💡 Deep Insight:<br>
+    <p>💡 Deep Insight:</p>
     In normal programs:
     <ul><li>You control the order</li></ul>
-    In event-driven systems:
+    <p>In event-driven systems:</p>
     <ul>
     <li>The system controls the order</li>
     <li>You provide responses</li>
