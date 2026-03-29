@@ -3,6 +3,10 @@ layout: default
 title: Minecraft
 ---
 
+```js
+console.log(test)
+```
+
 <pre><code class="language-java">public class MyPlugin {
     public void doSomething() {
         System.out.println("Hello world");
