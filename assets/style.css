@@ -47,6 +47,10 @@ html {
     margin-bottom: 1.5em;
 }
 
+/* Consider the use-case */
+/* .markdown-body p:has(+ ul, + ol) {
+    margin-bottom: 0; */
+
 .markdown-body blockquote p {
     margin-bottom: 0;
 }
@@ -94,6 +98,10 @@ html {
 }
 
 .markdown-body details:open ul:last-of-type {
+    margin-bottom: 0;
+}
+
+.markdown-body details:open p:has(+ ul, + ol) {
     margin-bottom: 0;
 }
 
