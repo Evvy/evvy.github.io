@@ -86,17 +86,17 @@ I want to make sure this clicks before we install anything.
 1. In your own words: What is an **event** in Minecraft/plugin development?
     <details>
     <summary><strong>Click to see the answer!</strong></summary>
-    👉 An <strong>event</strong> is an object created and dispatched by the server to represent that a specific action or occurrence has taken place in the game..<br>
-    💡 Key Insight: Events don’t just notify you — they also carry information.
+    <p>👉 An <strong>event</strong> is an object created and dispatched by the server to represent that a specific action or occurrence has taken place in the game.</p>
+    <p>💡 Key Insight: Events don’t just notify you — they also carry information.</p>
     </details>
 
 
 2. What’s the difference between: a **plugin** and a **mod**
     <details>
     <summary><strong>Click to see the answer!</strong></summary>
-    👉 A <strong>plugin</strong> is a server-side Java program that extends or modifies gameplay behavior by interacting with a server API, without directly altering the base game code.<br>
-    👉 A <strong>mod (modification)</strong> is a program that directly alters or extends the game's code and assets, allowing deep changes such as new blocks, items, mechanics, or rendering behavior.<br>
-    🔍 Important Distinction:
+    <p>👉 A <strong>plugin</strong> is a server-side Java program that extends or modifies gameplay behavior by interacting with a server API, without directly altering the base game code.</p>
+    <p>👉 A <strong>mod (modification)</strong> is a program that directly alters or extends the game's code and assets, allowing deep changes such as new blocks, items, mechanics, or rendering behavior.</p>
+    <p>🔍 Important Distinction:</p>
     <ul>
     <li>Plugins → work on top of the game</li>
     <li>Mods → change inside the game</li>
@@ -107,8 +107,8 @@ I want to make sure this clicks before we install anything.
 3. What do you think this means: **“event-driven programming”**?
     <details>
     <summary><strong>Click to see the answer!</strong></summary>
-    👉 <strong>Event-driven programming</strong> is a programming paradigm where the flow of execution is determined by events, and code is executed in response to those events.<br>
-    🔍 Key Terms:
+    <p>👉 <strong>Event-driven programming</strong> is a programming paradigm where the flow of execution is determined by events, and code is executed in response to those events.</p>
+    <p>🔍 Key Terms:</p>
     <ul>
     <li>Paradigm = a style or way of programming</li>
     <li>Flow of execution = the order in which code runs</li>
@@ -127,5 +127,5 @@ I want to make sure this clicks before we install anything.
 4. Optional (but valuable): Do you remember anything about **Java classes or methods**, or does it feel fuzzy?
     <details>
     <summary><strong>Click to see the answer!</strong></summary>
-    👉 An event is: A signal sent by the game when something has already happened.
+    <p>👉 An event is: A signal sent by the game when something has already happened.</p>
     </details>

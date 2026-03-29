@@ -87,6 +87,20 @@ html {
     margin-bottom: 1.5em;
 }
 
+.markdown-body details:open {
+    background: #31363f;
+    padding: 1em;
+    border-radius: 3px;
+}
+
+.markdown-body details:open ul:last-of-type {
+    margin-bottom: 0;
+}
+
+.markdown-body summary {
+    margin-bottom: 1em;
+}
+
 @media (max-width: 767px) {
     .markdown-body {
         padding: 15px;
