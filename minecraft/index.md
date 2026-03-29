@@ -12,7 +12,7 @@ A **plugin** is a small program that runs *inside* a Minecraft server.
 Think of it like this:
 * Minecraft server = the “game engine running the world”
 * Plugin = something that hooks *into* that engine and says:
->“Hey, when THIS happens, I want to do THAT”
+    >"Hey, when THIS happens, I want to do THAT"
 
 ## 🧠 Key Concept #1 — Event
 An **event** is something that happens in the game.
