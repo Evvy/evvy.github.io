@@ -105,27 +105,27 @@ I want to make sure this clicks before we install anything.
 
 
 3. What do you think this means: **“event-driven programming”**?
-<details>
-<summary><strong>Click to see the answer!</strong></summary>
-👉 <strong>Event-driven programming</strong> is a programming paradigm where the flow of execution is determined by events, and code is executed in response to those events.<br>
-🔍 Key Terms:
-<ul>
-<li>Paradigm = a style or way of programming</li>
-<li>Flow of execution = the order in which code runs</li>
-</ul>
-💡 Deep Insight:<br>
-In normal programs:
-<ul><li>You control the order</li></ul>
-In event-driven systems:
-<ul>
-<li>The system controls the order</li>
-<li>You provide responses</li>
-</ul>
-</details>
+    <details>
+    <summary><strong>Click to see the answer!</strong></summary>
+    👉 <strong>Event-driven programming</strong> is a programming paradigm where the flow of execution is determined by events, and code is executed in response to those events.<br>
+    🔍 Key Terms:
+    <ul>
+    <li>Paradigm = a style or way of programming</li>
+    <li>Flow of execution = the order in which code runs</li>
+    </ul>
+    💡 Deep Insight:<br>
+    In normal programs:
+    <ul><li>You control the order</li></ul>
+    In event-driven systems:
+    <ul>
+    <li>The system controls the order</li>
+    <li>You provide responses</li>
+    </ul>
+    </details>
 
 
 4. Optional (but valuable): Do you remember anything about **Java classes or methods**, or does it feel fuzzy?
-<details>
-<summary><strong>Click to see the answer!</strong></summary>
-👉 An event is: A signal sent by the game when something has already happened.
-</details>
+    <details>
+    <summary><strong>Click to see the answer!</strong></summary>
+    👉 An event is: A signal sent by the game when something has already happened.
+    </details>
