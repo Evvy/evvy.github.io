@@ -1,2 +1,3 @@
 markdown: GFM
-highlighter: none
+kramdown:
+  syntax_highlighter: none
