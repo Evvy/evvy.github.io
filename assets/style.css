@@ -75,20 +75,20 @@ html {
     border-left: 4px solid #4b5362;
 }
 
-.markdown-body pre {
+/* .markdown-body pre {
   background: #282c34;
   border-radius: 6px;
   padding: 16px;
   overflow: auto;
   border: none;
-}
+} */
 
-.markdown-body pre code.hljs {
+/* .markdown-body pre code.hljs {
   display: block;
   background: transparent;
   padding: 0;
   border: 0;
-}
+} */
 
 .markdown-body code:not(pre code) {
   background: #31363f;
@@ -97,13 +97,9 @@ html {
 }
 
 .markdown-body code {
-    font-family: Menlo, Consolas, "DejaVu Sans Mono", monospace;
     color: #ffffff;
-    background-color: #3a3f4b;
-    font-weight: normal;
     background: #31363f;
     border-radius: 3px;
-    padding: 2px 4px;
     font-size: 90%;
 }
 
