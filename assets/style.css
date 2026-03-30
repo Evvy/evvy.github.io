@@ -75,20 +75,9 @@ html {
     border-left: 4px solid #4b5362;
 }
 
-/* .markdown-body pre {
-  background: #282c34;
-  border-radius: 6px;
-  padding: 16px;
-  overflow: auto;
-  border: none;
-} */
-
-/* .markdown-body pre code.hljs {
-  display: block;
-  background: transparent;
-  padding: 0;
-  border: 0;
-} */
+.markdown-body pre {
+  margin-bottom: 1.5em;
+}
 
 .markdown-body code:not(pre code) {
   background: #31363f;
