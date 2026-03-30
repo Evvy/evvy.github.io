@@ -3,19 +3,6 @@ layout: default
 title: Minecraft
 ---
 
-```js
-console.log(test)
-```
-
-<pre><code class="language-java">public class MyPlugin {
-    public void doSomething() {
-        System.out.println("Hello world");
-    }
-}</code></pre>
-
-<pre><code class="language-java">if (x &lt; 10) {
-    System.out.println("Hello world");
-}</code></pre>
 
 # ⚙️ Step 1 — Understanding the Core Pieces
 Before we install anything, you need a mental model of what’s going on.
